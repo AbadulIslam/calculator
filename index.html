@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--requred meta tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta tag="freelancer munnaf"descripation="freelancer munnaf full stuck web developer">
+    <!--site title-->
+    <title>calculator</title>
+    <!--bootstrap css linkup-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--global css linkup-->
+    <link rel="stylesheet" href="css/style.css">
+     <!--google text font linkup-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <section class="calculator">
+       <div class="container">
+           <div class="row">
+              <div class="position">
+               <form name="calculator">
+                   <input type="text"name="display"class="text-view" readonly>
+                   
+                   <table>
+                       <tr>
+                           <td>
+                           <input type="button" value="1"class="bt btn-light" onclick="addone()"> 
+                            <input type="button" value="2"class="bt btn-light" onclick="addtwo()">
+                              <input type="button" value="3"class="bt btn-light" onclick="addthree()"> 
+                               <input type="button" value="C"class="bt btn-light" onclick="addc()">
+                           </td> 
+                      
+                       </tr>
+                       <tr>
+                             <td>
+                           <input type="button" value="4"class="bt btn-light" onclick="addfour()"> 
+                            <input type="button" value="5"class="bt btn-light" onclick="addfive()"> 
+                             <input type="button" value="6"class="bt btn-light" onclick="addsix()">
+                               <input type="button" value="+"class="bt btn-light"onclick="addplus()">  
+                        </td> 
+                       </tr> 
+                             <tr>
+                             <td>
+                           <input type="button" value="7"class="bt btn-light" onclick="addseven()">
+                             <input type="button" value="8"class="bt btn-light" onclick="addeight()"> 
+                             <input type="button" value="9"class="bt btn-light" onclick="addnine()"> 
+                              <input type="button" value="-"class="bt btn-light" onclick="addmainus()">   
+                        </td> 
+                       </tr> 
+                             <tr>
+                             <td>
+                              <input type="button" value="0"class="bt btn-light" onclick="addzero()">
+                           <input type="button" value="*"class="bt btn-light" onclick="addmaltiaplaction()">
+                             <input type="button" value="/"class="bt btn-light" onclick="adddivision()"> 
+                              <input type="button" value="="class="bt btn-light" onclick="calculator.display.value=eval(calculator.display.value)">  
+                        </td> 
+                       </tr>
+                   </table>
+               </form>
+               </div>
+           </div>
+       </div>
+   </section>
+    <script>
+    function addone(){
+        calculator.display.value+='1'
+    } 
+        function addtwo(){
+        calculator.display.value+='2'
+    }
+        function addthree(){
+        calculator.display.value+='3'
+    }
+        function addfour(){
+        calculator.display.value+='4'
+    } 
+        function addfive(){
+        calculator.display.value+='5'
+    }
+        function addsix(){
+        calculator.display.value+='6'
+    } 
+        function addseven(){
+        calculator.display.value+='7'
+    }
+        function addeight(){
+        calculator.display.value+='8'
+    }
+        function addnine(){
+        calculator.display.value+='9'
+    }
+        function addzero(){
+        calculator.display.value+='0'
+    }
+        
+        
+       function addc(){
+        calculator.display.value=""
+    } 
+        function addplus(){
+        calculator.display.value+='+'
+    }
+        function addmainus(){
+        calculator.display.value+='-'
+    }
+        function adddivision(){
+        calculator.display.value+='/'
+    }
+        function addmaltiaplaction(){
+        calculator.display.value+='*'
+    }
+               
+    </script>
+</body>
+</html>

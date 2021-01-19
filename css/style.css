@@ -1,0 +1,40 @@
+/*-----------------------Conract info----------------------------
+1.name:md abadeul islam  munnaf
+2.email:mdabadeul@gmail.com
+3.phone:01722137451
+4.skype:mdabadeulislam017
+5.address:pakisha,singra,natore,bangladesh
+*/
+body{
+        font-family: 'Montserrat', sans-serif;
+    background: #c3c3cb;
+}
+.text-view{
+   
+    padding: 35px 257px;
+    margin-top:80px;
+  
+    margin-bottom:80px;
+    color:black;
+
+    border:transparent;
+    
+
+}
+input{
+    margin:10px -25px;
+    padding:20px 80px;;
+    border:transparent;
+    margin-left:45px;
+    border-radius:10px;
+}
+input:hover{
+    background:#d7d7d7;
+}
+.position{
+
+    
+}
+.calculator{
+margin-left:60px;
+}
